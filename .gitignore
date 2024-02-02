@@ -26,6 +26,7 @@
 *.sql
 *.sqlite
 *.env
+*.pyc
 
 # OS generated files #
 ######################
@@ -42,3 +43,7 @@ Thumbs.db
 /mysql
 /tests
 /app/__pycache__
+/app/models/__pycache__
+/app/services/__pycache__
+/app/api/__pycache__
+/expense_tracker_env
