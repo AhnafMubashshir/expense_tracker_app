@@ -1,16 +1,6 @@
 version: '3'
 
 services:
-  # postgres:
-  #   image: postgres
-  #   restart: always
-  #   ports:
-  #     - '5432:5432'
-  #   environment:
-  #     POSTGRES_PASSWORD: pass123
-  #     POSTGRES_DB: your_postgres_database
-  #     POSTGRES_USER: your_postgres_user
-
   mysql:
       image: mysql
       container_name: expense_tracker

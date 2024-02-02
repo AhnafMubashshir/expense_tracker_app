@@ -7,7 +7,7 @@ app = FastAPI()
 conn = connect()
 
 app.include_router(users.router)
-app.include_router(expenses.router)
+# app.include_router(expenses.router)
 
 
 @app.get("/")
